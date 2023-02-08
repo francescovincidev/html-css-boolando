@@ -44,37 +44,31 @@ li{
 
 /* MAIN */
 .row{
-    margin: 50px auto;
+
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 10px;
+    gap: 50px 10px;
+    margin: 50px auto;
+
 }
 
 .card{
     width: calc(100%/3 - 10px);
+
     /* debug */
-    border: 2px solid red;
+    /* border: 2px solid red; */
 
     
 }
 
 .imgs img{
     width: 100%;
-
-
-
 }
 
-.imgs{
 
-
-
-
-}
-
+/* Hover */
 .second-img{
     display: none;
-
 
 }
 
@@ -86,8 +80,71 @@ li{
 .imgs:hover .second-img{
     display: inline-block;
 
+}
 
 
+/* Card decoration */
+.imgs{
+    position: relative;
+
+}
+
+.label{
+    font-size: 0.6rem;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+    bottom: 60px;
+    padding: 0.3rem;
+
+
+}
+
+.sale{
+    background-color: red;
+
+}
+
+.sustainability{
+    background-color: green;
+
+}
+
+.heart{
+    font-size: 1.5rem;
+    background-color: white;
+    padding: 0 0.4rem;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.product-info{
+    margin-top: -22px;
+}
+
+.brand{
+    font-size: 0.7rem;
+}
+
+.type{
+    font-weight: bold;
+    text-transform:uppercase;
+}
+
+.price{
+    font-size: 0.9rem;
+
+}
+
+.new-price{
+    color: red;
+    font-weight: bold;
+}
+
+.old-price{
+    text-decoration: line-through;
 }
 
 
