@@ -6,9 +6,96 @@
 }
 
 /* UTILITY */
+.flex{
+    display: flex;
+}
+
+body{
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
 
 /* COMMON */
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
 
 
 /* HEADER */
+.upper-bar{
+    background-color: #FF6900;
+    height: 60px;
+}
+
+.logo img{
+    width: 50%;
+}
+
+nav{
+    justify-content: space-between;
+}
+
+li{
+    list-style-type: none;
+}
+
+
+/* MAIN */
+.row{
+    margin: 50px auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.card{
+    width: calc(100%/3 - 10px);
+    /* debug */
+    border: 2px solid red;
+
+    
+}
+
+.imgs img{
+    width: 100%;
+
+
+
+}
+
+.imgs{
+
+
+
+
+}
+
+.second-img{
+    display: none;
+
+
+}
+
+.imgs:hover .first-img{
+    display: none; 
+
+}
+
+.imgs:hover .second-img{
+    display: inline-block;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
