@@ -21,25 +21,57 @@ body{
     margin: 0 auto;
 }
 
+li{
+    list-style-type: none;
+}
+
 
 
 /* HEADER */
 .upper-bar{
     background-color: #FF6900;
-    height: 60px;
+    color: white;
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    box-shadow: 0 3px 5px lightgrey;
+}
+
+header{
+    padding-bottom: 56px;
 }
 
 .logo img{
-    width: 50%;
+    width: calc(100%/6);
 }
 
 nav{
     justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  
+
 }
 
-li{
-    list-style-type: none;
+.logo{
+    justify-content: center;
 }
+
+.category ul{
+    gap: 0.5rem;
+    font-weight: bold;
+    font-size: 0.8rem;
+
+}
+
+.personal-area{
+    gap: 0.5rem;
+
+}
+
+
 
 
 /* MAIN */
