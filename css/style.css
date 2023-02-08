@@ -25,6 +25,12 @@ li{
     list-style-type: none;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+
+}
+
 
 
 /* HEADER */
@@ -133,6 +139,10 @@ nav{
 
 }
 
+div .nolabel{
+    z-index: -1;
+}
+
 .sale{
     background-color: red;
 
@@ -150,6 +160,11 @@ nav{
     position: absolute;
     right: 0;
     top: 10px;
+}
+
+.heart:hover{
+    color: red;
+    cursor: pointer;
 }
 
 .product-info{
